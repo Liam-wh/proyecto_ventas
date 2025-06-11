@@ -25,7 +25,7 @@ def inject_active_path():
 #inicio del applicacion
 @app.route('/')
 def home():
-    return redirect(url_for('usuario.index'))  # Redirige a la lista de usuarios por defecto
+    return redirect(url_for('cliente.index'))
     
     
 
